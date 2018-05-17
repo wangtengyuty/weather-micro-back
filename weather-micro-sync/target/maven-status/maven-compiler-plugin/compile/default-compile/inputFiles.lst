@@ -1,0 +1,15 @@
+D:\IDEAwork\weather-microservice\weather-micro-sync\src\main\java\com\wty\controller\SyncController.java
+D:\IDEAwork\weather-microservice\weather-micro-sync\src\main\java\com\wty\pojo\Country.java
+D:\IDEAwork\weather-microservice\weather-micro-sync\src\main\java\com\wty\Service\impl\SyncServiceImpl.java
+D:\IDEAwork\weather-microservice\weather-micro-sync\src\main\java\com\wty\WeatherMicroSyncApplication.java
+D:\IDEAwork\weather-microservice\weather-micro-sync\src\main\java\com\wty\Service\ISyncService.java
+D:\IDEAwork\weather-microservice\weather-micro-sync\src\main\java\com\wty\vo\Weather.java
+D:\IDEAwork\weather-microservice\weather-micro-sync\src\main\java\com\wty\util\WeatherResponse.java
+D:\IDEAwork\weather-microservice\weather-micro-sync\src\main\java\com\wty\config\RestConfig.java
+D:\IDEAwork\weather-microservice\weather-micro-sync\src\main\java\com\wty\vo\ForeCast.java
+D:\IDEAwork\weather-microservice\weather-micro-sync\src\main\java\com\wty\client\CityClient.java
+D:\IDEAwork\weather-microservice\weather-micro-sync\src\main\java\com\wty\vo\Yesterday.java
+D:\IDEAwork\weather-microservice\weather-micro-sync\src\main\java\com\wty\schedule\WeatherSyncJob.java
+D:\IDEAwork\weather-microservice\weather-micro-sync\src\main\java\com\wty\config\QuartzConfig.java
+D:\IDEAwork\weather-microservice\weather-micro-sync\src\main\java\com\wty\pojo\CountryList.java
+D:\IDEAwork\weather-microservice\weather-micro-sync\src\main\java\com\wty\util\JsonUtil.java

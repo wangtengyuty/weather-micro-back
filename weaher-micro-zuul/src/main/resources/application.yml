@@ -1,0 +1,22 @@
+server:
+  port: 8084
+spring:
+  application:
+    name: weather-micro-zuul
+  zipkin:
+    base-url: http://localhost:8085
+  sleuth:
+    sampler:
+      probability: 1.0
+zuul:
+  routes:
+    city:
+      serviceId: weather-micro-citydataapi
+      path: /cityapi/**
+    data:
+      serviceId: weather-micro-weatherapi
+      path: /weatherapi/**
+eureka:
+  client:
+    service-url:
+      defaultZone: http://EurekaServer:8761/eureka/

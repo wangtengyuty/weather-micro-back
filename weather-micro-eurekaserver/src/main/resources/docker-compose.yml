@@ -1,0 +1,42 @@
+version: '2'
+services:
+  eureka:
+    image: eureka
+    ports:
+      - 8761:8761
+
+
+  cityapi:
+    image: cityapi
+    ports:
+      - 8081:8081
+    links:
+      - eureka
+
+  sync:
+    image: sync
+    ports:
+      - 8082:8082
+    links:
+      - eureka
+      - cityapi
+    depends_on:
+      - cityapi
+
+  weatherapi:
+    image: weatherapi
+    ports:
+      - 8083:8083
+    links:
+      - eureka
+    depeneds_on:
+      - sync
+
+
+
+  zuul:
+    image: zuul
+    ports:
+      - 8084:8084
+    links:
+      - eureka

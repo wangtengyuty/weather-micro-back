@@ -1,0 +1,18 @@
+server:
+  port: 8081
+spring:
+  application:
+    name: weather-micro-citydataapi
+  zipkin:
+    base-url: http://127.0.0.1:8085
+    discovery-client-enabled: true
+    locator:
+      discovery:
+        enabled: true
+  sleuth:
+    sampler:
+      probability: 1.0
+eureka:
+  client:
+    service-url:
+      defaultZone: http://EurekaServer:8761/eureka/

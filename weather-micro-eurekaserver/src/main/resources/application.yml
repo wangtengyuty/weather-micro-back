@@ -1,0 +1,22 @@
+server:
+  port: 8761
+spring:
+  application:
+    name: weather-eureka-server
+#  security:
+#    user:
+#      name: eureka1
+#      password: 123456
+eureka:
+  #主机实例名
+  instance:
+    hostname: EurekaServer
+  client:
+    #注册地址
+    service-url:
+      #没有密码情况下
+      defaultZone: http://${eureka.instance.hostname}:${server.port}/eureka/
+    #是否注册到自身
+    register-with-eureka: false
+    fetch-registry: false
+

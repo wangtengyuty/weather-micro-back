@@ -1,0 +1,13 @@
+com\wty\WeatherMicroSyncApplication.class
+com\wty\config\QuartzConfig.class
+com\wty\pojo\CountryList.class
+com\wty\config\RestConfig.class
+com\wty\pojo\Country.class
+com\wty\vo\ForeCast.class
+com\wty\util\JsonUtil.class
+com\wty\vo\Weather.class
+com\wty\vo\Yesterday.class
+com\wty\schedule\WeatherSyncJob.class
+com\wty\util\WeatherResponse.class
+com\wty\client\CityClient.class
+com\wty\Service\ISyncService.class

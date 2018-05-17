@@ -1,0 +1,9 @@
+spring:
+  application:
+    name: zipkin-server
+server:
+  port: 8085
+eureka:
+  client:
+    service-url:
+      defauleZone: http://EurekaServer:8761/eureka/
